@@ -1,0 +1,49 @@
+<div class="container-fluid navside">
+  <div class="row flex-nowrap contenedorArtista overflow">
+    <div class="col-auto col-md-2 col-lg-2 col-xl-3 px-0 bg-dark scrollarea">
+      <div class=" d-flex justify-content-center align-items-center ps-3 pe-2 align-items-sm-start pt-2">
+        <div class="container">
+          <div class="row justify-content-md-center my-4">
+            <div class="col-md-5">
+              <div class="input-group">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected value="1">Día</option>
+                  <option value="2">Semana</option>
+                  <option value="3">Mes</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center my-5">
+            <div class="col-md-auto">
+              <button routerLink="/calendar" type="button" class="btn btn-primary">
+                <div class="row">
+                  <div class="col-sm-auto ps-3 pe-1">
+                    <span class="material-symbols-outlined"> add </span>
+                  </div><div class="col-sm-auto pe-3s ps-1">
+                    CREAR
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="row justify-content-md-center my-5">
+            <div class="col-md-auto">
+              <button routerLink="/calendar" type="button" class="btn btn-primary">ESTADISTICAS</button>
+            </div>
+          </div>
+          <div class="row justify-content-md-center my-5">
+            <div class="col-md-auto">
+              <button routerLink="/calendar" type="button" class="btn">
+                <img src="assets/images/googleimagen.png" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col px-0 scrollarea">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
