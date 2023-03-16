@@ -3,9 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { SincronizarComponent } from './sincronizar/sincronizar.component';
 
 const routes: Routes = [
-  {
-    path: '', component: SincronizarComponent
-  }
+  {path: 'login', component: SincronizarComponent},
+  {path: '', redirectTo: '/login', pathMatch: 'full'}
 ];
 
 @NgModule({

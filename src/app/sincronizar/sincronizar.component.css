@@ -1,4 +1,40 @@
-#body_sincronizar{
-  background-image: url("../../assets/images/fondo.png");
-  background-size: cover;
+.texto_blue{
+  color: #46C8F5;
+  font-size: xx-large;
+  font-family: 'Roboto', sans-serif;
 }
+
+.texto_pink{
+  color: #FF00A4;
+  font-size: xx-large;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #46C8F5;
+  border-radius: 20px;
+}
+
+.form-control:disabled{
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border-color: #46C8F5;
+}
+
+.form-control{
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border-color: #46C8F5;
+  text-align: center;
+}
+
+.btn-primary{
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #2F2F2F;
+  border-color: #46C8F5;
+  border-width: 1px;
+  box-shadow: 0px 3px 6px#46C8F5;
+}
+
