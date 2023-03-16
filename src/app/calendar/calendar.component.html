@@ -6,7 +6,7 @@
           <div class="row justify-content-md-center my-4">
             <div class="col-md-5">
               <div class="input-group">
-                <select class="form-select" id="inputGroupSelect01">
+                <select class="form-select" id="inputGroupSelect01" (change)="onSelect($event)">
                   <option selected value="1">Día</option>
                   <option value="2">Semana</option>
                   <option value="3">Mes</option>
@@ -29,14 +29,14 @@
           </div>
           <div class="row justify-content-md-center my-5">
             <div class="col-md-auto">
-              <button routerLink="/calendar" type="button" class="btn btn-primary">ESTADISTICAS</button>
+              <button routerLink="estadisticas" type="button" class="btn btn-primary">ESTADISTICAS</button>
             </div>
           </div>
           <div class="row justify-content-md-center my-5">
             <div class="col-md-auto">
-              <button routerLink="/calendar" type="button" class="btn">
+              <a href="https://www.google.com/" type="button" class="btn">
                 <img src="assets/images/googleimagen.png" alt="">
-              </button>
+              </a>
             </div>
           </div>
         </div>
